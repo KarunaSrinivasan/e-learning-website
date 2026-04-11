@@ -1,0 +1,42 @@
+.card img{
+    height: 380px;
+}
+
+.col-12{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+.row22{
+    width: 500px;
+}
+
+.row22 button{
+    width: 150px;
+}
+
+.col{
+  
+    display: flex;
+
+     
+}
+
+
+.col hr{
+    width: 100%;
+    border: solid rgb(0, 0, 0);
+ 
+}
+
+.imgg{
+      height: 400px;
+
+}
+
+.card-body{
+   height: 200px;
+   border: 0px solid white;
+}
+
