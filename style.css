@@ -1,25 +1,21 @@
 .container{
-    
     width: 100%;
 }
 
-
 .carousel-inner{
-    height: 1000px;
+    height: auto;
 }
 
 
 .course{
-   display: flex;
-    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    
+    gap: 20px;
+    margin-bottom: 20px;
 }
 
-
-
 .navi{
-  
     justify-content: space-evenly;
 }
 
@@ -33,28 +29,31 @@
     width: 100%;
 }
 
+
 .row img{
-    width: 100px;
-    height: 40px;
+    width: 80px;
+    height: 35px;
     margin-top: 40px;
 }
 
 .text-center{
     gap: 30px;
-
 }
 
-.backi{
-
-}
+.backi{}
 
 .review{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 20px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .card-img-top{
-   
+    height: 200px;
+    object-fit: cover; 
 }
 
 .rev{
@@ -62,26 +61,16 @@
     height: 100%;
 }
 
-.review{
-    height: 500px;
-}
-
-.course{
-      height: 400px;
-}
-
 .btn{
     list-style: none;
 }
 
 .navi li:hover{
-
- text-decoration: underline rgb(0, 0, 0);
+    text-decoration: underline rgb(0, 0, 0);
 }
 
 .navi li a:hover{
-      transform: scale(1.1);
-
+    transform: scale(1.1);
 }
 
 .btn-primary{
@@ -94,7 +83,6 @@
 
 .navi button{
     margin-left: 10px;
-
 }
 
 .navi button:hover{
@@ -107,11 +95,9 @@
 
 .ach{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-}
-
-.card-img-top{
-    height: 400px;
+    gap: 20px;
 }
 
 .card img{
@@ -120,17 +106,18 @@
 
 .men{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    gap: 20px;
 }
+
 
 .call{
-margin-left: 1300px;
-margin-top: -50px;
+    text-align: center;
+    margin-top: 10px;
 }
 
-.what
-{
- 
+.what{
     margin-top: 50px;
 }
 
@@ -143,10 +130,9 @@ margin-top: -50px;
 }
 
 .fa-whatsapp{
- font-size: 30px;
+    font-size: 30px;
 }
 
 .cou{
     margin-left: 75px;
 }
-
